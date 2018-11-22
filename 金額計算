@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void){
+    int u_price,n;
+    
+    printf("単価＝");
+    scanf("%d",&u_price);
+    printf("数量＝");
+    scanf("%d",&n);
+    
+    printf("合計＝%d\n",(u_price*n));
+    printf("税込＝%d\n",((u_price*n)*108)/100);
+
+    return(0);
+}
