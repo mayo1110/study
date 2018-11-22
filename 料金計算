@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void){
+    int kubun,ninzu;
+    
+    printf("区分:");
+    scanf("%d",&kubun);
+    printf("人数:");
+    scanf("%d",&ninzu);
+    
+    if(kubun==1){
+        printf("%d",ninzu*800);
+    }
+    else{
+        printf("%d",ninzu*1500);
+    }
+    
+    return(0);
+}
