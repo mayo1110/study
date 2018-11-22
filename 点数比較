@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(void){
+    
+    char name1[10],name2[10];
+    int score1,score2;
+    
+    printf("名前1:");
+    scanf("%s",name1);
+    printf("点数1:");
+    scanf("%d",&score1);
+    printf("名前2:");
+    scanf("%s",name2);
+    printf("点数2:");
+    scanf("%d",&score2);
+    
+    if(score1>score2){
+        printf("%sさんの方が大きい",name1);
+    }
+    else{
+        printf("%sさんの方が大きい",name2);
+    }
+
+    return(0);
+}
