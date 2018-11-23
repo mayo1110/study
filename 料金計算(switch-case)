@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(void){
+    int kubun,ninzu;
+    
+    printf("区分:");
+    scanf("%d",&kubun);
+    printf("人数:");
+    scanf("%d",&ninzu);
+
+    switch(kubun){
+        case 1:
+            printf("金額:%d",kubun*ninzu*800);
+            break;
+        
+        case 2:
+            printf("金額:%d",kubun*ninzu*1000);
+            break;
+        
+        case 3:
+            printf("金額:%d",kubun*ninzu*1500);
+            break;
+        
+    }
+
+    return(0);
+}
